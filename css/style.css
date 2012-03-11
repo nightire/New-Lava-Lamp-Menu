@@ -1,0 +1,86 @@
+* {
+	margin            : 0;
+	padding           : 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing   : border-box;
+	-ms-box-sizing    : border-box;
+	box-sizing        : border-box;
+}
+
+body {
+	width    : 740px;
+	margin   : 90px auto 0;
+	font: 1.6em sans-serif;
+}
+
+nav {
+	display         : inline-block;
+	position        : relative;
+	margin          : 0 auto;
+	padding         : 0 20px;
+	background-color: #2b2b2b;
+}
+
+nav > a {
+	display        : inline-block;
+	position       : inherit;
+	z-index        : 2;
+	padding        : 15px 30px;
+	color          : #ccc;
+	font-weight    : bolder;
+	text-decoration: none;
+}
+
+nav > a:hover,
+nav > a.current-link {
+	color: #fff;
+}
+
+span.floater {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+/* 内文部分 */
+
+article {
+	padding: 50px 0;
+	color: #2b2b2b;
+}
+
+h1, h2, h3, p {
+	margin: 20px 0;
+}
+
+p {
+	line-height: 1.5em;
+	text-indent: 2em;
+}
+
+dl, dd, dt {
+	margin: 0;
+	padding: 10px 0;
+}
+
+dd {
+	border-top: 1px solid #dcdcdc;	
+}
+
+dt > p {
+	margin: 0;
+	padding: 5px 0;
+	text-indent: 0;
+}
+
+span.comment {
+	color: #b2b2b2;
+}
+
+
+
+
+
